@@ -176,6 +176,9 @@ tbody button {
 
 td.user a {
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 td.user span {
