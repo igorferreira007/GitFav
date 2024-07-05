@@ -31,6 +31,7 @@ body * {
 body {
   font-size: 1.6rem;
   background-color: var(--bg-color);
+  padding: 6.6rem;
 }
 
 button {
@@ -48,6 +49,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1.6rem;
 
   margin-top: 11.5rem;
 }
@@ -110,6 +112,7 @@ header {
   border: 1px solid var(--border-table);
   border-radius: 1.2rem;
   overflow: hidden;
+  overflow-x: auto;
 }
 
 table {
@@ -203,7 +206,6 @@ td.user span {
   gap: 6rem;
   z-index: 1;
   background-color: var(--bg-empyt-tb);
-  /* position: absolute; */
 }
 
 #wrapper-text-empyt img {
@@ -227,4 +229,60 @@ td.user span {
   background-color: var(--bg-empyt-tb);
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 980px) {
+  header {
+    flex-direction: column;
+  }
+
+  .wrapper-search {
+    width: 100%;
+  }
+
+  .wrapper-search input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 660px) {
+  body {
+    padding: 2.4rem;
+  }
+
+  body * {
+    font-size: 1.6rem !important;
+  }
+
+  button {
+    font-size: 1.4rem !important;
+  }
+
+  header {
+    margin-top: 0;
+  }
+
+  .wrapper-search button {
+    padding: 1.6rem;
+  }
+
+  .wrapper-search button img {
+    display: none;
+  }
+
+  .wrapper-table {
+    margin-top: 2.4rem;
+  }
+
+  #wrapper-text-empyt img {
+    display: none;
+  }
+
+  #wrapper-text-empyt.message-empyt {
+    height: 10rem;
+  }
+
+  #wrapper-text-empyt h2 {
+    transform: none;
+  }
 }
