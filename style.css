@@ -202,6 +202,7 @@ td.user span {
   justify-content: center;
   gap: 6rem;
   z-index: 1;
+  background-color: var(--bg-empyt-tb);
   /* position: absolute; */
 }
 
