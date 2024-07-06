@@ -113,6 +113,7 @@ header {
   border-radius: 1.2rem;
   overflow: hidden;
   overflow-x: auto;
+  background-color: var(--bg-empyt-tb);
 }
 
 table {
