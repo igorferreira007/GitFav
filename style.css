@@ -16,8 +16,8 @@
   --text-tb: #E1E1E6;
   --bg-tb-header: #092D38;
   --text-remove: #F75A68;
-  --bg-empyt-tb: #030B0D;
-  --text-empyt: #4E5455;
+  --bg-empty-tb: #030B0D;
+  --text-empty: #4E5455;
 }
 
 body *, input, button {
@@ -113,7 +113,7 @@ header {
   border-radius: 1.2rem;
   overflow: hidden;
   overflow-x: auto;
-  background-color: var(--bg-empyt-tb);
+  background-color: var(--bg-empty-tb);
 }
 
 table {
@@ -198,39 +198,39 @@ td.user span {
   color: white;
 }
 
-#wrapper-text-empyt {
+#wrapper-text-empty {
   display: none;
 }
 
-#wrapper-text-empyt.message-empyt {
+#wrapper-text-empty.message-empty {
   height: 62.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 6rem;
   z-index: 1;
-  background-color: var(--bg-empyt-tb);
+  background-color: var(--bg-empty-tb);
 }
 
-#wrapper-text-empyt img {
+#wrapper-text-empty img {
   width: 13.2rem;
   height: 12.5rem;
 }
 
-#wrapper-text-empyt img,
-#wrapper-text-empyt h2 {
+#wrapper-text-empty img,
+#wrapper-text-empty h2 {
   transform: translateY(-50px);
 }
 
-#wrapper-text-empyt h2 {
-  color: var(--text-empyt);
+#wrapper-text-empty h2 {
+  color: var(--text-empty);
   font-size: 4rem;
   font-weight: bold;
 }
 
-.table-empyt {
+.table-empty {
   height: 62.4rem;
-  background-color: var(--bg-empyt-tb);
+  background-color: var(--bg-empty-tb);
   display: flex;
   justify-content: center;
 }
@@ -278,15 +278,15 @@ td.user span {
     margin-top: 2.4rem;
   }
 
-  #wrapper-text-empyt img {
+  #wrapper-text-empty img {
     display: none;
   }
 
-  #wrapper-text-empyt.message-empyt {
+  #wrapper-text-empty.message-empty {
     height: 10rem;
   }
 
-  #wrapper-text-empyt h2 {
+  #wrapper-text-empty h2 {
     transform: none;
   }
 }

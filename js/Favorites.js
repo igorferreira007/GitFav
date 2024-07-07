@@ -136,9 +136,9 @@ export class FavoritesView extends Favorites {
 
   checkUserLength() {
     if (this.entries.length === 0) {
-      this.root.querySelector('.wrapper-table #wrapper-text-empyt').classList.add('message-empyt')
+      this.root.querySelector('.wrapper-table #wrapper-text-empty').classList.add('message-empty')
     } else {
-      this.root.querySelector('.wrapper-table #wrapper-text-empyt').classList.remove('message-empyt')
+      this.root.querySelector('.wrapper-table #wrapper-text-empty').classList.remove('message-empty')
     }
   }
 }
