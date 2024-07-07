@@ -31,7 +31,7 @@ body * {
 body {
   font-size: 1.6rem;
   background-color: var(--bg-color);
-  padding: 6.6rem;
+  padding-inline: 6.6rem;
 }
 
 button {
